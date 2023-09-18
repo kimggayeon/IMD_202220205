@@ -1,8 +1,15 @@
+console.log(2);
+console.log('문자');
+console.log(true);
+
 const two = 2;
 console.log(two);
 
 const four = 4;
 console.log(four);
+
+let undefinedVal;
+console.log(undefinedVal);
 
 let addition = two + four;
 console.log(addition);
@@ -17,65 +24,107 @@ let division = two / four;
 console.log(division);
 
 addition = addition + two;
-console.log('addition', addition);
+console.log('더하기', addition);
 addition += two;
-console.log('addition', addition);
+console.log('더하기', addition);
 
 subtraction = subtraction - two;
-console.log('subtraction', subtraction);
+console.log('빼기', subtraction);
 subtraction -= two;
-console.log('subtraction', subtraction);
+console.log('빼기', subtraction);
 subtraction += -two;
-console.log('subtraction', subtraction);
+console.log('빼기', subtraction);
 subtraction += -1 * two;
-console.log('subtraction', subtraction);
+console.log('빼기', subtraction);
 
 multiplication = multiplication * two;
-console.log('multiplication', multiplication);
+console.log('곱하기', multiplication);
 multiplication *= two;
-console.log('multiplication', multiplication);
+console.log('곱하기', multiplication);
 
-console.log('square', 8 ** 2);
-console.log('square', Math.pow(8, 2));
-console.log('power function', 2 ** 8);
-console.log('power function', Math.pow(2, 8));
-console.log('square root', 2 ** 0.5);
-console.log('square root', Math.pow(2, 0.5));
+console.log('square, 제곱', 8 ** 2);
+console.log('세제곱', 8 ** 3);
+console.log('root square, 제곱근', 4 ** (1 / 2));
 
 division = division / two;
-console.log('division', division);
+console.log('나누기', division);
 division /= two;
-console.log('division', division);
+console.log('나누기', division);
 division *= 1 / two;
-console.log('division', division);
+console.log('나누기', division);
 
 let counter = 0;
-console.log('counter', counter); // counter: 0
+counter += 1;
+console.log('counter', counter);
+counter += 1;
+console.log('counter', counter);
 counter++;
-console.log('counter', counter); // counter: 1
-let remainder = counter % four;
-console.log('remainder', remainder); // remainder: 1
+console.log('counter', counter);
+console.log('counter', counter);
 counter++;
-console.log('counter', counter); // counter: 2
-remainder = counter % four;
-console.log('remainder', remainder); // remainder: 2
+console.log('counter', counter);
+counter--;
+console.log('counter', counter);
+remainder = counter % 8;
+console.log('remainder', remainder);
 counter++;
-console.log('counter', counter); // counter: 3
-remainder = counter % four;
-console.log('remainder', remainder); // remainder: 3
+remainder = counter % 8;
+console.log('counter', counter);
+console.log('remainder', remainder);
 counter++;
-console.log('counter', counter); // counter: 4
-remainder = counter % four;
-console.log('remainder', remainder); // remainder: 0
+remainder = counter % 8;
+console.log('counter', counter);
+console.log('remainder', remainder);
 counter++;
-console.log('counter', counter); // counter: 5
+remainder = counter % 8;
+console.log('counter', counter);
+console.log('remainder', remainder);
+counter++;
+remainder = counter % 8;
+console.log('counter', counter);
+console.log('remainder', remainder);
+counter++;
+remainder = counter % 8;
+console.log('counter', counter);
+console.log('remainder', remainder);
+counter++;
+remainder = counter % 8;
+console.log('counter', counter);
+console.log('remainder', remainder);
+counter++;
+remainder = counter % 8;
+console.log('counter', counter);
+console.log('remainder', remainder);
+counter++;
+remainder = counter % 8;
+console.log('counter', counter);
+console.log('remainder', remainder);
+counter++;
+remainder = counter % 8;
+console.log('counter', counter);
+console.log('remainder', remainder);
+counter++;
+remainder = counter % 8;
+console.log('counter', counter);
+console.log('remainder', remainder);
+counter++;
+remainder = counter % 8;
+console.log('counter', counter);
+console.log('remainder', remainder);
 
 let boolean = true;
-console.log('boolean', boolean);
+console.log(boolean);
+boolean = false;
+console.log(boolean);
 boolean = !boolean;
-console.log('boolean', boolean);
+console.log(boolean);
+boolean = !boolean;
+console.log(boolean);
 
 const textTwo = '2';
-console.log('addition with text', two + textTwo);
-console.log('addition with number', two + two);
-console.log('a way to solve', two + Number(textTwo));
+console.log(two);
+console.log(textTwo);
+console.log('num + txt', two + textTwo);
+console.log('num + num', two + two);
+console.log('txt + txt', textTwo + textTwo);
+console.log('solution', two + Number(textTwo));
