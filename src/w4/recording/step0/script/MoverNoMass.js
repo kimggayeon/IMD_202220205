@@ -1,4 +1,4 @@
-class MoverNoMass {
+class MoverNoMass  {
   constructor(x, y, r) {
     this.pos = createVector(x, y);
     this.vel = createVector(0, 0);
