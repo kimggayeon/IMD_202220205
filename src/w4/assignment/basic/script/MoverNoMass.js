@@ -8,6 +8,7 @@ class Body {
     this.velocityVisualization = createVector(0, 0);
     this.accelerationVisualization = createVector(0, 0);
   }
+
   attract(body) {
     let force = p5.Vector.sub(this.position, body.position);
     let distance = constrain(force.mag(), 5, 25);
