@@ -3,7 +3,7 @@ let particle;
 let g;
 
 function setup() {
-  setCanvasContainer('canvas', 2, 1, true);
+  setCanvasContainer('mySketchGoesHere', 2, 1, true);
 
   colorMode(HSL, 360, 100, 100);
   particle = new Ball(width / 2, 0, 0, 0, 1, 0, 100, 50);

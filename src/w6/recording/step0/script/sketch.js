@@ -81,7 +81,7 @@ let gravity;
 let wind;
 
 function setup() {
-  setCanvasContainer('canvas', 2, 1, true);
+  setCanvasContainer('mySketchGoesHere', 2, 1, true);
 
   colorMode(HSL, 360, 100, 100);
 
