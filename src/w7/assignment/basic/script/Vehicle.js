@@ -22,7 +22,7 @@ class Vehicle {
           steer.add(each.pos);
           cnt++;
         }
-        // 백터 세부적으로 만져주기
+        // 백터 세부적으로 만져주기 .
       }
     });
     if (cnt > 0) {
