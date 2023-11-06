@@ -22,7 +22,7 @@ class Traffic {
       eachVehicle.borderInfinite();
       //vehicle에서 가져온 borderInfinite를 실행함
       eachVehicle.display();
-      //vehicle에서 가져온 display를 실행함.
+      //vehicle에서 가져온 display를 실행함
     });
   }
 
