@@ -1,7 +1,7 @@
 class Traffic {
   constructor() {
     this.vehicles = [];
-    // 불러올 수  있는 틀(?) 만들기
+    // 불러올 수  있는 틀(? ) 만들기
   }
 
   run() {
