@@ -9,7 +9,7 @@ class Vehicle {
     this.forceMx = forceMx;
     this.neighborhooodRad = 50;
     this.color = color;
-  } // 변수 만들어주기 .
+  } // 변수 만들어주기
 
   cohesion(others) {
     let cnt = 0;
