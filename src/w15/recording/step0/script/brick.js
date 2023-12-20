@@ -16,7 +16,7 @@ class Brick {
     rect(0, 0, size - offset, size - offset);
     pop();
   }
-  //마우스 쓰는 것들도 학교에서 배운거에서 응용해서 함
+  //마우스 xy 활용하는 거 학교에서 배운거에서 응용
   move(d) {
     let distance = dist(mouseX, mouseY, this.x, this.y);
     if (distance <= d) {
