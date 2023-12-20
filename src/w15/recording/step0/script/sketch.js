@@ -3,7 +3,7 @@ let cols;
 let rows;
 let size = 16;
 let offset = 200;
-
+//수업시간에 했던 것들 위주로 코드 참고함
 function setup() {
   setCanvasContainer('canvas', 1, 1, true);
   rectMode(CENTER);
@@ -17,7 +17,7 @@ function setup() {
     }
   }
 }
-
+//수업시간에 했던 것들 위주로 코드 참고함
 function draw() {
   background('red');
   for (let i = 0; i < cols; i++) {
